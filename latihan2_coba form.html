@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form sederhana</title>
+    <link rel="icon" href="gambar/icon.png" type="img/png" sizes="16x16">
+</head>
+<body>
+    <form action="/action_page.php" method="post" target="_self">
+        <label for="depan">Nama Depan:</label><br>
+        <input type="text" id="depan" name="i_name" value="Budi"><br>
+        
+        <label for="n_belakang">Nama Belakang:</label><br>
+        <input type="text" id="n_belakang" name="i_belakang" value="Prawira"><br><br>
+
+        <input type="submit" value="Kirim">
+        <input type="reset" value="Reset">
+    </form>
+    <p><p>Uji coba ini menunjukkan bahwa tombol <b>reset</b> akan mengembalikan semua input ke nilai defaultnya, sementara tombol <b>kirim</b> digunakan untuk mengirimkan data formulir. Atribut <b>target</b> dengan nilai <i>_self</i> berarti hasil formulir akan muncul di tab yang sama, sedangkan nilai <i>_blank</i> membuka hasil di tab baru. Perbedaan antara metode <b>GET</b> dan <b>POST</b> adalah <b>GET</b> mengirimkan data melalui URL, yang memungkinkan data terlihat, sedangkan <b>POST</b> mengirimkan data secara lebih aman tanpa menampilkannya di URL.</p>
+
+</body>
+</html>
